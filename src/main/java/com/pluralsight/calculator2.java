@@ -1,3 +1,5 @@
+package com.pluralsight;
+
 import java.util.Scanner;
 
 public class calculator2 {
@@ -22,5 +24,7 @@ public class calculator2 {
 
         System.out.printf("Total interest earned: %.2f \n", totalInterest);
         System.out.printf("Your CD future value is: %.2f \n", futureValue);
+
+        scanner.close();
     }
 }
